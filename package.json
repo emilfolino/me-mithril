@@ -1,0 +1,21 @@
+{
+  "name": "me-mithril",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -d",
+    "watch": "webpack -d --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^1.1.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.28.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
