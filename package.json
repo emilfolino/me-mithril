@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack -d",
     "watch": "webpack -d --watch",
-    "production": "webpack -p"
+    "production": "webpack -p",
+    "deploy": "webpack -p && rsync -av index.html style.min.css dist/bundle.min.js deploy@jsramverk.me:/var/www/me-mithril.jsramverk.me/html/"
   },
   "keywords": [],
   "author": "",
