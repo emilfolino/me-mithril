@@ -8,7 +8,7 @@
     "start": "webpack -d",
     "watch": "webpack -d --watch",
     "production": "webpack -p",
-    "deploy": "webpack -p && rsync -av index.html style.min.css dist/bundle.min.js deploy@jsramverk.se:/var/www/me-mithril.jsramverk.me/html/"
+    "deploy": "webpack -p && rsync -av index.html style.min.css dist/bundle.min.js efo@jsramverk.se:/var/www/me-mithril.jsramverk.me/html/"
   },
   "keywords": [],
   "author": "",
