@@ -7,14 +7,12 @@ module.exports = {
                 m("ul", [
                     m("li", [
                         m("a", {
-                            href: "/",
-                            oncreate: m.route.link
+                            href: "#!/"
                         }, "Me")
                     ]),
                     m("li", [
                         m("a", {
-                            href: "/reports/kmom01",
-                            oncreate: m.route.link
+                            href: "#!/reports/kmom01"
                         }, "kmom01")
                     ]),
                 ])

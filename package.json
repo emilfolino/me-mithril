@@ -8,13 +8,13 @@
     "start": "webpack -d",
     "watch": "webpack -d --watch",
     "production": "webpack -p",
-    "deploy": "webpack -p && rsync -av index.html style.min.css dist/bundle.min.js deploy@jsramverk.me:/var/www/me-mithril.jsramverk.me/html/"
+    "deploy": "webpack -p && rsync -av index.html style.min.css dist/bundle.min.js deploy@jsramverk.se:/var/www/me-mithril.jsramverk.me/html/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mithril": "^1.1.7"
+    "mithril": "^2.0.4"
   },
   "devDependencies": {
     "webpack": "^4.28.0",

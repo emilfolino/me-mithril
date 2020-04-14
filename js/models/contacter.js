@@ -7,7 +7,7 @@ var contacter = {
     getMe: function() {
         return m.request({
             method: "GET",
-            url: "https://me-api.jsramverk.me"
+            url: "https://me-api.jsramverk.se"
         }).then(function(data) {
             contacter.meText = data.description;
         });
@@ -16,7 +16,7 @@ var contacter = {
     getQuestions: function(kmom) {
         return m.request({
             method: "GET",
-            url: "https://me-api.jsramverk.me/reports/" + kmom
+            url: "https://me-api.jsramverk.se/reports/" + kmom
         }).then(function(data) {
             contacter.questions = data.data;
         });
